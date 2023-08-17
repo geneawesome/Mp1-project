@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    list-style: none;
+    font-family:"Open Sans";
+}
+.menu_nav{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    
+}
+
+
+.title{
+    color: white;
+    font-weight: 700;
+   
+
+}
+
+.nav_item{
+    color: white;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 2px transparent solid;
+
+
+}
+
+.nav_item:hover{
+    border-bottom: 2px white solid;
+    cursor: pointer;
+    
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+
+}
+
+.parallax {
+    background-image: url("kape.jpg");
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  .parallax_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+
+  
+  .tagline{
+    color: white;
+    font-weight: 400;
+  }
+
+  .tag{
+    color: white;
+    font-weight: 500;
+  }
+
+  .carousel_img{
+    max-height: 100vh;
+    object-fit:cover;
+
+  }
+
+#about{
+  background-color: beige;
+}
+
+.col img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+#about p{
+  max-width: 400px;
+}
+
+/* .image_col{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+} */
+
+#services {
+  position: relative;
+  height: 300px;
+}
+
+/* #services > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+} */
+
+.card-img-top{
+  width: 100%!important;
+}
+
+.text_price{
+  font-size: 28px;
+}
+
+.menu_image{
+  width: 100%;
+  object-fit: cover;
+  height: 250px!important;
+}
+
+.background{
+  background-color: bisque;
+}
